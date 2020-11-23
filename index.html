@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto: Portfolio Pamela Fumagalli</title>
+    
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./Iconos/favicon.svg" type="image/svg+xml">
+    
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+<body>
+    <header>
+        <nav class="nav-header">
+            <ul id="ul-header">
+                <a href="#a-hola">
+                    <li class="menu-header">HOLA</li>
+                </a>
+                <a href="#a-skills">
+                    <li class="menu-header">CONOCIMIENTOS</li>
+                </a>
+                <a href="#a-proyectos">
+                    <li class="menu-header">PROYECTOS</li>
+                </a>
+                <a href="#a-contacto">
+                    <li class="menu-header button">CONTACTO</li>
+                </a>
+            </ul>
+            <i id="icono-burger" class="fas fa-bars"></i>
+        </nav>
+        
+        <!-- MENÚ DESPLEGABLE MOBILE -->
+        <nav id="menu-mobile" class="contenedor-barra-mobile">
+            <ul id="lista-barra-mobile" class="barra-mobile">
+                <a href="#a-hola">
+                    <li class="menu-header">HOLA</li>
+                </a>
+                <a href="#a-skills">
+                    <li class="menu-header">CONOCIMIENTOS</li>
+                </a>
+                <a href="#a-proyectos">
+                    <li class="menu-header">PROYECTOS</li>
+                </a>
+                <a href="#a-contacto">
+                    <li class="menu-header button">CONTACTO</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN HOLA -->
+
+    <section class="seccion-hola" id="a-hola">
+        <div class="contenedor-hola">
+            <div class="texto-hola">
+                <h3>¡Hola! Soy</h3>
+                <h1>Pamela Fumagalli</h1>
+                <p class="p-hola">Desarrolladora Frontend, Diseñadora Textil y Estudio Ing.Textil!</p>
+
+                <ul>
+                    <a href="#a-proyectos">
+                        <li class="button">LO QUE HAGO</li>
+                    </a>
+                </ul>
+
+            </div>
+            <img class="img-hola" src="./imágenes/Software Engineer.svg" alt="Development Frontend">
+        </div>
+    </section>
+
+    <!-- SECCIÓN SKILLS -->
+
+    <section class="seccion-skills" id="a-skills">
+
+        <h2 class="h2-skills">Mis Conocimientos</h2>
+        <p class="texto-skills">De lo que he aprendido, estas son las tecnologías de las que tengo dominio.
+            y las cuales ire perfeccionando!</p>
+
+        <div class="contenedor-skills">
+
+            <div class="skills">
+                <img class="img-skills" src="./logos/html.svg"HTML5" />
+                <p class="p-titulo-skills">HTML 5</p>
+            </div>
+        
+            <div class="skills">
+                <img class="img-skills" src="./logos/css-3.svg" alt="CSS3" />
+                <p class="p-titulo-skills">CSS 3</p>
+            </div>
+
+            <div class="skills">
+                <img class="img-skills" src="./logos/sass-1.svg" alt="Saas" />
+                <p class="p-titulo-skills">Saas</p>
+            </div>
+
+            <div class="skills">
+                <img class="img-skills" src="./logos/javascript-1.svg" alt="JavaScript" />
+                <p class="p-titulo-skills">JavaScript</p>
+            </div>
+
+            <div class="skills">
+                <img class="img-skills" src="./logos/react.svg" alt="React" />
+                <p class="p-titulo-skills">React</p>
+            </div>
+
+            <div class="skills">
+                <img class="img-skills" src="./logos/git-icon.svg" alt="GIT" />
+                <p class="p-titulo-skills">GIT</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- SECCIÓN QUOTE -->
+
+    <section class="seccion-quote" id="a-quote">
+
+        <div class="div-quote">
+
+            <!-- FONTAWESOME -->
+            <i class="fas fa-hand-holding-heart fa-3x"></i>
+            
+            
+            <blockquote>
+                <p class="p-quote">"Siempre estoy haciendo</p>
+                <p class="p-quote">lo que no puedo hacer,</p>
+                <p class="p-quote">para aprender como hacerlo."</p>
+            </blockquote>
+
+            <h3 class="h3-quote">Pablo Picasso</h3>
+
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN PROYECTOS -->
+
+    <section class="seccion-proyectos" id="a-proyectos">
+
+        <h2 class="h2-proyectos">Mis Proyectos</h2>
+
+        <div class="botonera-proyectos">
+            
+            <button data-name="todos" class="menu-proyectos buttonClicked" id="boton-todos">TODOS</button>
+            <button data-name="html" class="menu-proyectos">HTML/CSS</button>
+            <button data-name="js" class="menu-proyectos">JavaScript</button>
+            <button data-name="react" class="menu-proyectos">React</button>
+        
+        </div>
+
+        <div class="contenedor-proyectos">
+
+            <a href="" target="_blank">
+                <div data-name="html" class="proyectos">
+                    <img class="img-proyectos" src="./imágenes/Software Engineer.svg" alt="Portfolio de Pamela" />
+                    <p class="p-titulo-proyectos">Portfolio</p>
+                </div>
+            </a>
+
+            <a href="" target="_blank">
+                <div data-name="js" class="proyectos">
+                    <img class="img-proyectos" src="./imágenes/undraw_add_to_cart_vkjp.svg" alt="Tienda" />
+                    <p class="p-titulo-proyectos">Tienda</p>
+                </div>
+            </a>
+
+             <a href="" target="_blank">
+            <div data-name="js" class="proyectos">
+                    <img class="img-proyectos" src="./imágenes/undraw_video_game_night_8h8m.svg" alt="Juego" />
+                    <p class="p-titulo-proyectos">Juego</p>
+                </div>
+            </a>
+
+            <a href="" target="_blank"> 
+                
+                <div data-name="js" class="proyectos">
+                    <img class="img-proyectos" src="./imágenes/undraw_transfer_money_rywa.svg" alt="Controlador de Gastos" />
+                    <p class="p-titulo-proyectos">Controlador de Gastos</p>
+                </div>
+            </a>
+
+             <a href="" target="_blank">
+                <div data-name="js" class="proyectos">
+                    <img class="img-proyectos" src="./imágenes/undraw_remote_meeting_cbfk.svg" alt="Administrador de Reuniones" />
+                    <p class="p-titulo-proyectos">Admn de Reuniones</p>
+                </div>
+            </a>
+
+            <a href="" target="_blank">
+                <div data-name="react" class="proyectos">
+                    <img class="img-proyectos" src="./imágenes/undraw_home_screen_4n7s.svg" alt="Todo app" />
+                    <p class="p-titulo-proyectos">Todo app</p>
+                </div>
+            </a>
+
+             <a href="" target="_blank">
+                <div data-name="react" class="proyectos">
+                    <img class="img-proyectos" src="./imágenes/undraw_movie_night_fldd.svg" alt="Buscador de Películas" />
+                    <p class="p-titulo-proyectos">Buscador de Películas</p>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+    <!--Sección Contacto-->
+    <section id="a-contacto">
+        <div class="contenedor-contacto">
+            <div class="contactame">
+                <h2>Contactame</h2>
+                <p class="texto-contacto">Encontramé en mis redes sociales,si envias un mail te responderé a la brevedad.</p>
+                <div class="social-primero">
+                    <ul class="social-primero-items">
+                        <li class="social-item"><a href="https://twitter.com/PamelaFumagalli"><i class="fab fa-twitter social-icon" aria-hidden="true"></i>@PamelaFumagalli</a></li>
+                        <li class="social-item"><a href="https://github.com/Pame-85"><i class="fab fa-github-alt social-icon" aria-hidden="true"></i>Pame-85</a></li>
+                        <li class="social-item"><a href="https://www.linkedin.com/in/pamela-fumagalli-53335825/"><i class="fab fa-linkedin-in social-icon" aria-hidden="true"></i>pamelafumagalli</a></li>
+                        <li class="social-item"><a href="mailto:pamelafumagalli85@gmail.com"><i class="fas fa-envelope social-icon" aria-hidden="true"></i>pamelafumagalli85@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="escribime">
+                <h2>Escribime</h2>
+                <form>
+                    <div class="nombre">
+                        <div class="form-control">
+                            <label for="nombre">Nombre *</label>
+                            <br>
+                            <input type="text" name="nombre" id="nombre" placeholder="p. ej.: Pamela" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="apellido">Apellido *</label>
+                            <br>
+                            <input type="text" name="apellido" id="apellido" placeholder="p. ej.: Fumagalli" required>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email *</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="p. ej.: pamelafumagalli85@gmail.com" required>
+                        <label for="msj">Mensaje *</label>
+                        <br>
+                        <textarea name="msj" id="msj" cols="30" rows="10" placeholder="Escriba un mensaje aquí" required></textarea>
+                    </div>
+                    <br>
+                <button type="submit" class="contact-send-btn button">
+                  Enviar
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+              
+    <!-- FOOTER -->
+
+    <footer class="seccion-footer">
+        <nav class="nav-footer">
+            <ul>
+                <a href="#a-hola">
+                    <li class="menu-footer">HOLA</li>
+                </a>
+                <a href="#a-skills">
+                    <li class="menu-footer">CONOCIMIENTOS</li>
+                </a>
+                <a href="#a-proyectos">
+                    <li class="menu-footer">PROYECTOS</li>
+                </a>
+                <a href="#a-contacto">
+                    <li class="menu-footer">CONTACTO</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="div-contacto" id="a-contacto">
+            <a target="_blank" href="https://github.com/Pame-85">
+                <img class="img-contacto" src="./logos-social media/logotipo-de-github.svg"/>
+            </a>
+            
+            <a target="_blank" href="https://www.linkedin.com/in/pamela-fumagalli-53335825/">
+                <img class="img-contacto" src="./logos-social media/linkedin.svg" />
+            </a>
+            
+            <a target="_blank" href="mailto:pamelafumagalli85@gmail.com">
+                <img class="img-contacto" src="./logos-social media/correo.svg" />
+            </a>
+            
+            <a target="_blank" href="https://twitter.com/PamelaFumagalli">
+                <img class="img-contacto" src="./logos-social media/gorjeo.svg" />
+            </a>
+
+        </div>
+
+        <p class="love footer">
+            Hecho con ❤️ por <span class="span-footer">Pamela</span>
+        </p>
+    </footer>
+        
+    <!-- JAVASCRIPT LINK -->
+    <script src="main.js"></script>
+</body>
+
+</html>
