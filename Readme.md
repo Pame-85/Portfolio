@@ -5,10 +5,10 @@
 ### Este proyecto tiene como objetivo principal mostrar el ejemplo de un Portfolio en Desarrollo Web.
 ### El diseño intenta atraer la atención del usuario, para lo cual se utiliza un contraste de colores Puros.[Colores](https://machiina.com/insights/los-siete-contrastes-de-color-de-johannes-itten/)
 *****
-### Dejo aquí el link del proyecto [Github pages](https://pame-85.github.io/Portfolio.github.io/)
+### Dejo aquí el link del proyecto [Github pages](https://pame-85.github.io/Portfolio/)
 *****
 ### Para clonar está Repo seguí estos pasos en tu terminal:
-- #### Ir al [Repo](https://github.com/Pame-85/Portfolio.github.io.git).
+- #### Ir al [Repo](https://github.com/Pame-85/Portfolio).
 - #### Forkearlo.
 - #### Ir a Code y copiar la URL.
 - #### Abrir el Bash.
