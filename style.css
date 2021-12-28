@@ -144,6 +144,7 @@ display: flex;
     text-align: left;
     color: #607b82;
     margin: 16px 0 40px 0;
+    font-size:22px ;
 }
 /*--------------------------------
   SECCIÓN SKILLS
@@ -689,6 +690,7 @@ button:active, .cta:active, .btn:active{
     
     .p-hola, h1, h3 {
         text-align: center;
+        
     }
 
     /*--------------------------------
