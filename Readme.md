@@ -23,9 +23,6 @@ Sigue estos pasos en tu terminal para clonar el repositorio:
 
 ![imagen](/imágenes/screen.png)
 
-#### Gracias a [John Parra](https://github.com/jonhks) y [Leydy Moreno](https://github.com/leydyk93/) 💙 pude realizar este proyecto.
-
-#### También gracias a las chicas de la 6ta generación Frontend.📱 
 
 
 
